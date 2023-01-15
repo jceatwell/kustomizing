@@ -53,3 +53,7 @@ Example:
 ```
 sed -i '0,/^\([[:space:]]*newTag: *\).*/s//\11.21.7/' 4-exmple/staging/kustomization.yaml
 ```
+
+Links:
+
+* SpringBoot Example: [https://github.com/kubernetes-sigs/kustomize/tree/master/examples/springboot] (https://github.com/kubernetes-sigs/kustomize/tree/master/examples/springboot)
