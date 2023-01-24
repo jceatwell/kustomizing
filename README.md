@@ -2,7 +2,7 @@
 
 First Tutorial taken from: https://antonputra.com/kubernetes/kubernetes-kustomize-tutorial/#convert-deployment-to-kustomize-base
 
-# 1st Exmple
+# 1st Example
 
 This example converts a deployment.yaml into a kustomization
 
@@ -57,3 +57,4 @@ sed -i '0,/^\([[:space:]]*newTag: *\).*/s//\11.21.7/' 4-exmple/staging/kustomiza
 Links:
 
 * SpringBoot Example: [https://github.com/kubernetes-sigs/kustomize/tree/master/examples/springboot] (https://github.com/kubernetes-sigs/kustomize/tree/master/examples/springboot)
+* Frther good examples: phttps://blog.stack-labs.com/code/kustomize-101/] (https://blog.stack-labs.com/code/kustomize-101/)
